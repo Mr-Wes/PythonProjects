@@ -1,0 +1,10 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/">
+    <file>background.jpg</file>
+    <file>b_add_store.png</file>
+    <file>b_exit.png</file>
+    <file>b_liststyle2.png</file>
+    <file>i_ok.png</file>
+  </qresource>
+</RCC>
