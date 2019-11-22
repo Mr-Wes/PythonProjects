@@ -2,9 +2,15 @@
 <RCC version="1.0">
   <qresource prefix="/">
     <file>background.jpg</file>
+    <file>play_bg.jpg</file>
     <file>b_add_store.png</file>
     <file>b_exit.png</file>
+    <file>b_return.png</file>
+    <file>b_seting.png</file>
     <file>b_liststyle2.png</file>
+    <file>b_play.png</file>
+    <file>b_stop.png</file>
     <file>i_ok.png</file>
+    <file>i_head.png</file>
   </qresource>
 </RCC>
