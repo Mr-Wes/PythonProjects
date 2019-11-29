@@ -23,6 +23,7 @@
    <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
+<<<<<<< HEAD
    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,5">
     <item>
      <widget class="QWidget" name="widget_1" native="true">
@@ -152,6 +153,74 @@ background-repeat:no-repeat;</string>
        </item>
        <item>
         <spacer name="verticalSpacer_5">
+=======
+   <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="15,83">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widget_1" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>146</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(147, 183, 231);</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="10,10,40,10,10,40,10,10,40,10">
+       <property name="spacing">
+        <number>6</number>
+       </property>
+       <property name="rightMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_1" stretch="1,5,30">
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="bt_mean_min">
+           <property name="styleSheet">
+            <string notr="true">background-image: url(:/b_return.png);
+background-position:center;
+background-repeat:no-repeat;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_8">
+>>>>>>> master
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -164,6 +233,7 @@ background-repeat:no-repeat;</string>
         </spacer>
        </item>
        <item>
+<<<<<<< HEAD
         <spacer name="verticalSpacer_6">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -178,6 +248,14 @@ background-repeat:no-repeat;</string>
        </item>
        <item>
         <widget class="QLabel" name="lb_mean_icon">
+=======
+        <widget class="QLabel" name="lb_mean_icon">
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/i_head.png);
+background-position:center;
+background-repeat:no-repeat;</string>
+         </property>
+>>>>>>> master
          <property name="text">
           <string>头像</string>
          </property>
@@ -187,7 +265,11 @@ background-repeat:no-repeat;</string>
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <spacer name="verticalSpacer_7">
+=======
+        <spacer name="verticalSpacer_4">
+>>>>>>> master
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
@@ -200,6 +282,51 @@ background-repeat:no-repeat;</string>
         </spacer>
        </item>
        <item>
+<<<<<<< HEAD
+=======
+        <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="1,5,1">
+         <item>
+          <widget class="QLabel" name="lb_mean_reps">
+           <property name="text">
+            <string>  仓库  </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="bt_mean_add_rep">
+           <property name="styleSheet">
+            <string notr="true">background-image: url(:/b_add_store.png);
+background-position:center;
+background-repeat:no-repeat;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+>>>>>>> master
         <widget class="QScrollArea" name="sa_mean_reps">
          <property name="widgetResizable">
           <bool>true</bool>
@@ -209,8 +336,13 @@ background-repeat:no-repeat;</string>
            <rect>
             <x>0</x>
             <y>0</y>
+<<<<<<< HEAD
             <width>139</width>
             <height>69</height>
+=======
+            <width>126</width>
+            <height>97</height>
+>>>>>>> master
            </rect>
           </property>
           <widget class="QListView" name="lv_mean_reps">
@@ -218,8 +350,13 @@ background-repeat:no-repeat;</string>
             <rect>
              <x>10</x>
              <y>10</y>
+<<<<<<< HEAD
              <width>171</width>
              <height>201</height>
+=======
+             <width>111</width>
+             <height>61</height>
+>>>>>>> master
             </rect>
            </property>
           </widget>
@@ -227,14 +364,22 @@ background-repeat:no-repeat;</string>
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <spacer name="verticalSpacer_8">
+=======
+        <spacer name="verticalSpacer_7">
+>>>>>>> master
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
+<<<<<<< HEAD
            <height>45</height>
+=======
+           <height>56</height>
+>>>>>>> master
           </size>
          </property>
         </spacer>
@@ -247,19 +392,28 @@ background-repeat:no-repeat;</string>
         </widget>
        </item>
        <item>
+<<<<<<< HEAD
         <spacer name="verticalSpacer_4">
+=======
+        <spacer name="verticalSpacer_9">
+>>>>>>> master
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
+<<<<<<< HEAD
            <height>45</height>
+=======
+           <height>56</height>
+>>>>>>> master
           </size>
          </property>
         </spacer>
        </item>
        <item>
+<<<<<<< HEAD
         <spacer name="verticalSpacer_9">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -271,6 +425,50 @@ background-repeat:no-repeat;</string>
           </size>
          </property>
         </spacer>
+=======
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="bt_mean_seting">
+           <property name="styleSheet">
+            <string notr="true">background-image: url(:/b_seting.png);
+background-position:center;
+background-repeat:no-repeat;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="bt_mean_exit">
+           <property name="styleSheet">
+            <string notr="true">background-image: url(:/b_exit.png);
+background-position:center;
+background-repeat:no-repeat;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="autoRepeat">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+>>>>>>> master
        </item>
       </layout>
      </widget>
@@ -287,11 +485,25 @@ background-repeat:no-repeat;</string>
        <string notr="true">background-image: url(:/background.jpg);
 background-repeat:no-repeat;
 background-position:center;
+<<<<<<< HEAD
 background-size:790px,560px</string>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="5,2">
        <item>
         <widget class="QWidget" name="widget_4" native="true">
+=======
+</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="65,18">
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+>>>>>>> master
          <layout class="QVBoxLayout" name="mainLayout" stretch="1,2,1,2,1,50,1,1,1">
           <property name="spacing">
            <number>0</number>
@@ -419,8 +631,13 @@ background-repeat:no-repeat;</string>
               <rect>
                <x>0</x>
                <y>0</y>
+<<<<<<< HEAD
                <width>548</width>
                <height>423</height>
+=======
+               <width>593</width>
+               <height>410</height>
+>>>>>>> master
               </rect>
              </property>
              <property name="styleSheet">
@@ -431,7 +648,11 @@ background-repeat:no-repeat;</string>
                <rect>
                 <x>10</x>
                 <y>10</y>
+<<<<<<< HEAD
                 <width>551</width>
+=======
+                <width>581</width>
+>>>>>>> master
                 <height>391</height>
                </rect>
               </property>
@@ -478,6 +699,7 @@ background-repeat:no-repeat;</string>
        <item>
         <widget class="QWidget" name="widget_3" native="true">
          <property name="styleSheet">
+<<<<<<< HEAD
           <string notr="true">background-color: rgba(229, 229, 229, 100);</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -506,10 +728,45 @@ background-repeat:no-repeat;</string>
               </property>
               <property name="alignment">
                <set>Qt::AlignCenter</set>
+=======
+          <string notr="true"/>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2" stretch="5,20,10,5,50,20,10,60,5">
+          <item>
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>64</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="lb_detail_filename">
+            <property name="text">
+             <string>文件名</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout" stretch="20,20,3">
+            <item>
+             <widget class="QLabel" name="lb_detail_describe">
+              <property name="text">
+               <string>    描述    </string>
+>>>>>>> master
               </property>
              </widget>
             </item>
             <item>
+<<<<<<< HEAD
              <spacer name="verticalSpacer">
               <property name="orientation">
                <enum>Qt::Vertical</enum>
@@ -518,11 +775,22 @@ background-repeat:no-repeat;</string>
                <size>
                 <width>20</width>
                 <height>40</height>
+=======
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+>>>>>>> master
                </size>
               </property>
              </spacer>
             </item>
             <item>
+<<<<<<< HEAD
              <layout class="QHBoxLayout" name="horizontalLayout" stretch="20,3,1">
               <item>
                <widget class="QLabel" name="lb_detail_describe">
@@ -634,6 +902,97 @@ background-repeat:no-repeat;</string>
              </widget>
             </item>
            </layout>
+=======
+             <widget class="QPushButton" name="bt_detail_describe_save">
+              <property name="text">
+               <string>Save</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>9</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QTextEdit" name="textEdit"/>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>46</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="lb_detail_mark">
+            <property name="text">
+             <string>    标签</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QScrollArea" name="sa_detail_marks">
+            <property name="widgetResizable">
+             <bool>true</bool>
+            </property>
+            <widget class="QWidget" name="scrollAreaWidgetContents_2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>159</width>
+               <height>147</height>
+              </rect>
+             </property>
+             <widget class="QGroupBox" name="gb1">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>10</y>
+                <width>171</width>
+                <height>101</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>GroupBox</string>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+>>>>>>> master
           </item>
          </layout>
         </widget>
