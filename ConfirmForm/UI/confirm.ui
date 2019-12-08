@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
-    <height>600</height>
+    <width>600</width>
+    <height>800</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>500</width>
-    <height>600</height>
+    <width>600</width>
+    <height>800</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>500</width>
-    <height>600</height>
+    <width>600</width>
+    <height>800</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -28,28 +28,50 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QWidget" name="widget" native="true">
-     <layout class="QVBoxLayout" name="verticalLayout_2">
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,5,1">
       <item>
        <layout class="QHBoxLayout" name="hl_1_1" stretch="1,2,1,2">
         <item>
          <widget class="QLabel" name="lb_number">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>订单号</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_number"/>
+         <widget class="QLineEdit" name="le_number">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="lb_name">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>客户名称</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_name"/>
+         <widget class="QLineEdit" name="le_name">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -57,23 +79,45 @@
        <layout class="QHBoxLayout" name="hl_1_2" stretch="1,2,1,2">
         <item>
          <widget class="QLabel" name="lb_people">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>商务</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_people"/>
+         <widget class="QLineEdit" name="le_people">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QLabel" name="lb_tel">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>电话</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_tel"/>
+         <widget class="QLineEdit" name="le_tel">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -88,6 +132,11 @@
        <layout class="QHBoxLayout" name="hl_2_1" stretch="1,2,1,2">
         <item>
          <widget class="QLabel" name="lb_color">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>颜色</string>
           </property>
@@ -95,20 +144,20 @@
         </item>
         <item>
          <widget class="QComboBox" name="cb_color">
-          <item>
-           <property name="text">
-            <string>白色</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>黑色</string>
-           </property>
-          </item>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
          </widget>
         </item>
         <item>
          <widget class="QLabel" name="lb_logo">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>丝印</string>
           </property>
@@ -116,6 +165,11 @@
         </item>
         <item>
          <widget class="QLineEdit" name="le_logo">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>无</string>
           </property>
@@ -127,6 +181,11 @@
        <layout class="QHBoxLayout" name="hl_2_2" stretch="1,2,1,2">
         <item>
          <widget class="QLabel" name="lb_type">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>型号</string>
           </property>
@@ -134,107 +193,33 @@
         </item>
         <item>
          <widget class="QComboBox" name="cb_type">
-          <item>
-           <property name="text">
-            <string/>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>P710-01</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>P710-04</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>P708</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>S2000</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>S3000(S)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>S3000(D)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>S3000B</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>S3000B(S)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>S3000B(D)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G979B</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G989A</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G989B(S)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G989B(D)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G989C</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G989C(S)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G989C(D)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>G999</string>
-           </property>
-          </item>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
          </widget>
         </item>
         <item>
          <widget class="QLabel" name="lb_count">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>数量</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_count"/>
+         <widget class="QLineEdit" name="le_count">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -249,6 +234,11 @@
        <layout class="QHBoxLayout" name="hl_3_1" stretch="1,2,1,2">
         <item>
          <widget class="QLabel" name="lb_board">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>主板</string>
           </property>
@@ -256,50 +246,20 @@
         </item>
         <item>
          <widget class="QComboBox" name="cb_board">
-          <item>
-           <property name="text">
-            <string/>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>5127</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>5128</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>5167-V5(带WiFi模块)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>5167-V5(不带WiFi模块)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>5187-V3</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>5187-V4</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>5187-V5</string>
-           </property>
-          </item>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
          </widget>
         </item>
         <item>
          <widget class="QLabel" name="lb_screen">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>显示屏</string>
           </property>
@@ -307,147 +267,11 @@
         </item>
         <item>
          <widget class="QComboBox" name="cb_screen">
-          <item>
-           <property name="text">
-            <string/>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>弘电</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>仓瑞</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>源聚缘</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>精源宇</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>汉王</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>磐信</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>优派</string>
-           </property>
-          </item>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="hl_3_2" stretch="1,2,1,2">
-        <item>
-         <widget class="QLabel" name="lb_id">
-          <property name="text">
-           <string>二代证</string>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
           </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QComboBox" name="cb_id">
-          <item>
-           <property name="text">
-            <string>无</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>德生二代证</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>中正BU3</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>中正二合一BH5</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>中正二合一BH6</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>客户提供</string>
-           </property>
-          </item>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="lb_finger">
-          <property name="text">
-           <string>指纹仪</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QComboBox" name="cb_finger">
-          <item>
-           <property name="text">
-            <string>无</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>指昂060</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>指昂LD-8800-G</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>指昂LD-8800-G-060</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>中正SM-205BCT</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>中正SM821</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>天诚TCM025-FT5</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>天诚探索者</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>客户提供</string>
-           </property>
-          </item>
          </widget>
         </item>
        </layout>
@@ -456,6 +280,11 @@
        <layout class="QHBoxLayout" name="hl_3_3" stretch="1,2,3">
         <item>
          <widget class="QLabel" name="lb_camera">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>摄像头</string>
           </property>
@@ -463,41 +292,11 @@
         </item>
         <item>
          <widget class="QComboBox" name="cb_camera">
-          <item>
-           <property name="text">
-            <string>无</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>永吉星200万</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>永吉星500万</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>健德源单目</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>健德源双目</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>赛威思单目</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>赛威思双目</string>
-           </property>
-          </item>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
          </widget>
         </item>
         <item>
@@ -529,9 +328,60 @@
        </layout>
       </item>
       <item>
+       <layout class="QHBoxLayout" name="hl_3_2" stretch="1,2,1,2">
+        <item>
+         <widget class="QLabel" name="lb_id">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>二代证</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cb_id">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="lb_finger">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>指纹仪</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cb_finger">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
        <layout class="QHBoxLayout" name="hl_3_4" stretch="1,2,3">
         <item>
          <widget class="QLabel" name="lb_wire">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>电缆线</string>
           </property>
@@ -539,80 +389,48 @@
         </item>
         <item>
          <widget class="QComboBox" name="cb_wire">
-          <item>
-           <property name="text">
-            <string/>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科029</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科029(电池功能)</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科029B</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科046</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科106A</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科106B</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科106C</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科107</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>威线科110</string>
-           </property>
-          </item>
-          <item>
-           <property name="text">
-            <string>正青046</string>
-           </property>
-          </item>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
          </widget>
         </item>
         <item>
-         <spacer name="horizontalSpacer_3">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>开机</string>
           </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>40</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QRadioButton" name="rb_yes_step">
+             <property name="text">
+              <string>非同步</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="rb_no_step">
+             <property name="text">
+              <string>同步</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
         </item>
        </layout>
       </item>
       <item>
        <widget class="QLabel" name="lb_other">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>其他可选项</string>
         </property>
@@ -622,6 +440,11 @@
        <layout class="QHBoxLayout" name="hl_4_6">
         <item>
          <widget class="QCheckBox" name="chb_gm">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>国密</string>
           </property>
@@ -629,6 +452,11 @@
         </item>
         <item>
          <widget class="QCheckBox" name="chb_m1">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>禾嘉读卡器</string>
           </property>
@@ -636,6 +464,11 @@
         </item>
         <item>
          <widget class="QCheckBox" name="chb_battery">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>电池</string>
           </property>
@@ -643,6 +476,11 @@
         </item>
         <item>
          <widget class="QCheckBox" name="chb_4g">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>4G模块</string>
           </property>
@@ -650,6 +488,11 @@
         </item>
         <item>
          <widget class="QCheckBox" name="chb_stand">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>支架</string>
           </property>
@@ -668,13 +511,24 @@
        <layout class="QHBoxLayout" name="hl_4_1" stretch="1,5">
         <item>
          <widget class="QLabel" name="lb_software">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>应用程序</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_software"/>
+         <widget class="QLineEdit" name="le_software">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -682,13 +536,24 @@
        <layout class="QHBoxLayout" name="hl_4_2" stretch="1,5">
         <item>
          <widget class="QLabel" name="lb_hardware">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>固件版本</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_hardware"/>
+         <widget class="QLineEdit" name="le_hardware">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -696,13 +561,24 @@
        <layout class="QHBoxLayout" name="hl_4_3" stretch="1,5">
         <item>
          <widget class="QLabel" name="lb_m3">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>M3版本</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="le_m3"/>
+         <widget class="QLineEdit" name="le_m3">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>
@@ -710,13 +586,24 @@
        <layout class="QHBoxLayout" name="hl_4_4" stretch="1,5">
         <item>
          <widget class="QLabel" name="lb_mark">
+          <property name="font">
+           <font>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>备注</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QTextEdit" name="te_mark"/>
+         <widget class="QTextEdit" name="te_mark">
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </item>

@@ -44,4 +44,7 @@
  </widget>
  <resources/>
  <connections/>
+ <slots>
+  <slot>test()</slot>
+ </slots>
 </ui>
