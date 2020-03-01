@@ -1,0 +1,10 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/">
+    <file>background.jpg</file>
+    <file>flock.jpg</file>
+    <file>tree.jpg</file>
+    <file>frameon.png</file>
+    <file>frameoff.png</file>
+  </qresource>
+</RCC>
