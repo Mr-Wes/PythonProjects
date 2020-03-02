@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Main.ui'
+# Form implementation generated from reading ui file 'main.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.2
 #
@@ -8,139 +8,115 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from src import image_rc
 
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(682, 412)
-        MainWindow.setMinimumSize(QtCore.QSize(682, 412))
-        self.centralwidget = QtWidgets.QWidget(MainWindow)
-        self.centralwidget.setStyleSheet("QWidget#widget_1{\n"
-"    background-color: rgb(59, 141, 141);\n"
-"}\n"
-"QWidget#widget_2{\n"
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(800, 600)
+        Form.setMinimumSize(QtCore.QSize(800, 600))
+        Form.setMaximumSize(QtCore.QSize(800, 600))
+        Form.setStyleSheet("QWidget#widget{\n"
 "    border-image: url(:/background.jpg);\n"
+"}\n"
+"QListView#lv_file{\n"
+"    border-image: url(:/flock.jpg);\n"
+"}\n"
+"QLabel#lb_null{\n"
+"    border-image: url(:/tree.jpg);\n"
+"}\n"
+"QTextEdit#te_detail{\n"
+"    background-color: rgba(255, 255, 255, 150);\n"
+"}\n"
+"QPushButton#bt{\n"
+"    border-image: url(:/frameoff.png)\n"
+"}\n"
+"QLineEdit#le_path{\n"
+"    border:1px solid gray\n"
+"    border-radius:10px\n"
 "}")
-        self.centralwidget.setObjectName("centralwidget")
-        self.horizontalLayout = QtWidgets.QHBoxLayout(self.centralwidget)
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout(Form)
+        self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_4.setSpacing(0)
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.widget = QtWidgets.QWidget(Form)
+        self.widget.setObjectName("widget")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.widget)
+        self.horizontalLayout.setContentsMargins(10, 6, 10, 6)
+        self.horizontalLayout.setSpacing(0)
         self.horizontalLayout.setObjectName("horizontalLayout")
-        self.widget_1 = QtWidgets.QWidget(self.centralwidget)
+        self.widget_1 = QtWidgets.QWidget(self.widget)
         self.widget_1.setObjectName("widget_1")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.widget_1)
         self.verticalLayout.setObjectName("verticalLayout")
-        spacerItem = QtWidgets.QSpacerItem(20, 15, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
-        self.verticalLayout.addItem(spacerItem)
+        self.label = QtWidgets.QLabel(self.widget_1)
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        self.le_path = QtWidgets.QLineEdit(self.widget_1)
+        self.le_path.setObjectName("le_path")
+        self.verticalLayout.addWidget(self.le_path)
+        self.lv_file = QtWidgets.QListView(self.widget_1)
+        self.lv_file.setObjectName("lv_file")
+        self.verticalLayout.addWidget(self.lv_file)
+        self.horizontalLayout.addWidget(self.widget_1)
+        self.widget_2 = QtWidgets.QWidget(self.widget)
+        self.widget_2.setObjectName("widget_2")
+        self.page_null = QtWidgets.QWidget(self.widget_2)
+        self.page_null.setGeometry(QtCore.QRect(0, 0, 330, 578))
+        self.page_null.setObjectName("page_null")
+        self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.page_null)
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 1)
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.lb_null = QtWidgets.QLabel(self.page_null)
+        self.lb_null.setText("")
+        self.lb_null.setObjectName("lb_null")
+        self.verticalLayout_2.addWidget(self.lb_null)
+        self.pages = QtWidgets.QWidget(self.widget_2)
+        self.pages.setGeometry(QtCore.QRect(0, 0, 330, 578))
+        self.pages.setObjectName("pages")
+        self.verticalLayout_3 = QtWidgets.QVBoxLayout(self.pages)
+        self.verticalLayout_3.setContentsMargins(12, 0, 20, 10)
+        self.verticalLayout_3.setObjectName("verticalLayout_3")
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout_3.addItem(spacerItem)
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
-        self.label_3 = QtWidgets.QLabel(self.widget_1)
-        self.label_3.setObjectName("label_3")
-        self.horizontalLayout_3.addWidget(self.label_3)
+        self.label_2 = QtWidgets.QLabel(self.pages)
+        self.label_2.setObjectName("label_2")
+        self.horizontalLayout_3.addWidget(self.label_2)
         spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.horizontalLayout_3.addItem(spacerItem1)
-        self.bt_add_rep = QtWidgets.QPushButton(self.widget_1)
-        self.bt_add_rep.setText("")
-        self.bt_add_rep.setObjectName("bt_add_rep")
-        self.horizontalLayout_3.addWidget(self.bt_add_rep)
-        self.verticalLayout.addLayout(self.horizontalLayout_3)
-        self.lv_reps = QtWidgets.QListView(self.widget_1)
-        self.lv_reps.setObjectName("lv_reps")
-        self.verticalLayout.addWidget(self.lv_reps)
-        spacerItem2 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
-        self.verticalLayout.addItem(spacerItem2)
-        self.bt_tag_manager = QtWidgets.QPushButton(self.widget_1)
-        self.bt_tag_manager.setObjectName("bt_tag_manager")
-        self.verticalLayout.addWidget(self.bt_tag_manager)
-        spacerItem3 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
-        self.verticalLayout.addItem(spacerItem3)
-        self.verticalLayout.setStretch(0, 1)
-        self.verticalLayout.setStretch(1, 2)
-        self.verticalLayout.setStretch(2, 8)
-        self.verticalLayout.setStretch(3, 3)
-        self.verticalLayout.setStretch(4, 2)
-        self.verticalLayout.setStretch(5, 4)
-        self.horizontalLayout.addWidget(self.widget_1)
-        self.widget_2 = QtWidgets.QWidget(self.centralwidget)
-        self.widget_2.setObjectName("widget_2")
-        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.widget_2)
-        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
-        self.widget_3 = QtWidgets.QWidget(self.widget_2)
-        self.widget_3.setObjectName("widget_3")
-        self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.widget_3)
-        self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
-        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
-        spacerItem4 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_4.addItem(spacerItem4)
-        self.bt_screen = QtWidgets.QPushButton(self.widget_3)
-        self.bt_screen.setObjectName("bt_screen")
-        self.horizontalLayout_4.addWidget(self.bt_screen)
-        self.verticalLayout_2.addLayout(self.horizontalLayout_4)
-        self.le_path_input = QtWidgets.QLineEdit(self.widget_3)
-        self.le_path_input.setObjectName("le_path_input")
-        self.verticalLayout_2.addWidget(self.le_path_input)
-        self.lv_files = QtWidgets.QListView(self.widget_3)
-        self.lv_files.setObjectName("lv_files")
-        self.verticalLayout_2.addWidget(self.lv_files)
-        self.lb_status = QtWidgets.QLabel(self.widget_3)
-        self.lb_status.setObjectName("lb_status")
-        self.verticalLayout_2.addWidget(self.lb_status)
-        self.horizontalLayout_2.addWidget(self.widget_3)
-        self.widget_4 = QtWidgets.QWidget(self.widget_2)
-        self.widget_4.setObjectName("widget_4")
-        self.verticalLayout_3 = QtWidgets.QVBoxLayout(self.widget_4)
-        self.verticalLayout_3.setObjectName("verticalLayout_3")
-        self.lb_file_name = QtWidgets.QLabel(self.widget_4)
-        font = QtGui.QFont()
-        font.setPointSize(15)
-        self.lb_file_name.setFont(font)
-        self.lb_file_name.setObjectName("lb_file_name")
-        self.verticalLayout_3.addWidget(self.lb_file_name)
-        self.label_2 = QtWidgets.QLabel(self.widget_4)
-        self.label_2.setObjectName("label_2")
-        self.verticalLayout_3.addWidget(self.label_2)
-        self.te_info = QtWidgets.QTextEdit(self.widget_4)
-        self.te_info.setObjectName("te_info")
-        self.verticalLayout_3.addWidget(self.te_info)
-        self.horizontalLayout_5 = QtWidgets.QHBoxLayout()
-        self.horizontalLayout_5.setObjectName("horizontalLayout_5")
-        spacerItem5 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
-        self.horizontalLayout_5.addItem(spacerItem5)
-        self.bt_save = QtWidgets.QPushButton(self.widget_4)
-        self.bt_save.setObjectName("bt_save")
-        self.horizontalLayout_5.addWidget(self.bt_save)
-        self.verticalLayout_3.addLayout(self.horizontalLayout_5)
-        spacerItem6 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
-        self.verticalLayout_3.addItem(spacerItem6)
-        self.label_4 = QtWidgets.QLabel(self.widget_4)
-        self.label_4.setObjectName("label_4")
-        self.verticalLayout_3.addWidget(self.label_4)
-        self.widget_tags = QtWidgets.QWidget(self.widget_4)
-        self.widget_tags.setObjectName("widget_tags")
-        self.verticalLayout_3.addWidget(self.widget_tags)
-        spacerItem7 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
-        self.verticalLayout_3.addItem(spacerItem7)
-        self.horizontalLayout_2.addWidget(self.widget_4)
-        self.horizontalLayout_2.setStretch(0, 5)
-        self.horizontalLayout_2.setStretch(1, 2)
+        self.bt = QtWidgets.QPushButton(self.pages)
+        self.bt.setMinimumSize(QtCore.QSize(50, 26))
+        self.bt.setObjectName("bt")
+        self.horizontalLayout_3.addWidget(self.bt)
+        self.verticalLayout_3.addLayout(self.horizontalLayout_3)
+        self.te_detail = QtWidgets.QTextEdit(self.pages)
+        self.te_detail.setObjectName("te_detail")
+        self.verticalLayout_3.addWidget(self.te_detail)
+        self.preview = QtWidgets.QWidget(self.pages)
+        self.preview.setObjectName("preview")
+        self.verticalLayout_3.addWidget(self.preview)
+        self.verticalLayout_3.setStretch(0, 1)
+        self.verticalLayout_3.setStretch(1, 2)
+        self.verticalLayout_3.setStretch(2, 20)
+        self.verticalLayout_3.setStretch(3, 20)
         self.horizontalLayout.addWidget(self.widget_2)
-        self.horizontalLayout.setStretch(0, 1)
-        self.horizontalLayout.setStretch(1, 5)
-        MainWindow.setCentralWidget(self.centralwidget)
+        self.horizontalLayout.setStretch(0, 3)
+        self.horizontalLayout.setStretch(1, 2)
+        self.verticalLayout_4.addWidget(self.widget)
 
-        self.retranslateUi(MainWindow)
-        self.bt_add_rep.clicked.connect(MainWindow.slotSelectDir)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
 
-    def retranslateUi(self, MainWindow):
+    def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_3.setText(_translate("MainWindow", "仓库"))
-        self.bt_tag_manager.setText(_translate("MainWindow", "标签管理"))
-        self.bt_screen.setText(_translate("MainWindow", "筛选"))
-        self.lb_status.setText(_translate("MainWindow", "TextLabel"))
-        self.lb_file_name.setText(_translate("MainWindow", "TextLabel"))
-        self.label_2.setText(_translate("MainWindow", "简介"))
-        self.bt_save.setText(_translate("MainWindow", "保存"))
-        self.label_4.setText(_translate("MainWindow", "标签"))
-import pic_rc
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.label.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:600;\"> 路径</span></p></body></html>"))
+        self.label_2.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:600;\"> 文件备注</span></p></body></html>"))
+        self.te_detail.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'SimSun\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:#8f8f8f;\">最多可输入250个字符</span></p></body></html>"))

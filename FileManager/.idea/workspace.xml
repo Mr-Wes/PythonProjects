@@ -1,21 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b667bfc-db2a-4772-9216-631c7bf5595d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/RightClick.py" afterDir="false" />
+    <list default="true" id="c189ea0c-2a00-49f7-8e88-389010661096" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/.idea/ConfirmForm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/.idea/ConfirmForm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/FileDir/1-1-P710-01-1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/UI/confirm.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/UI/progress.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/res/001.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/res/choice.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/src/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/src/confirm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/src/progress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/ConfirmForm/src/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileDir/1-1-P710-01-1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/.idea/FileManager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/UI/Main.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/__init__.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/label.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/flock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/frameoff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/frameon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/image.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/label.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/off.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/on.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/res/tree.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/src/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/src/image_rc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/FileManager/src/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/.idea/Mydesktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/UI/mydesktop_h.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/res/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/res/pic.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/src/mydesktop_h.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/Mydesktop/src/pic_rc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/UI/confirm.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/UI/progress.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/push.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/res/001.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/res/choice.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/src/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/src/confirm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/src/progress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConfirmForm/src/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/FileManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FileManager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/.idea/ConfirmForm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/FileDir/1-1-P710-01-1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/UI/confirm.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/UI/progress.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/res/001.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/res/choice.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/src/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/src/confirm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/src/progress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfirmForm/src/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/.idea/FileManager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/UI/Main.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/__init__.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/label.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/flock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/frameoff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/frameon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/image.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/label.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/off.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/on.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/res/tree.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/src/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/src/image_rc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileManager/src/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/.idea/Mydesktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/UI/mydesktop_h.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/res/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/res/pic.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/src/mydesktop_h.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mydesktop/src/pic_rc.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/Main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Main.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/add_group.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/add_tag.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/tag_seting.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/push.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/record/my.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_add_store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_liststyle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_return.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_seting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/b_stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/i_head.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/i_ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/pic.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/play_bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.py" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Main.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/RightClick.ui" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/pic.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/pic.qrc" afterDir="false" />
->>>>>>> master
+      <change beforePath="$PROJECT_DIR$/src/RightClick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handleXML.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pic_rc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/.idea/Mydesktop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/UI/mydesktop_h.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/res/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/res/pic.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/src/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/src/mydesktop_h.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mydesktop/src/pic_rc.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,27 +176,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Rx2wXmlujut3oFsKrgMZecTweX" />
-<<<<<<< HEAD
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="E:/mysoftware/Python/Python37-32/Scripts/pyrcc5.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-=======
+  <component name="ProjectId" id="1Vvo7d8s1g78HVyX7Yv3VvcQxp1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
->>>>>>> master
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\code\python\FileManager\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programworkspace\workspace-python\FileManager\res" />
+      <recent name="D:\programworkspace\workspace-python\FileManager\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,11 +233,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b667bfc-db2a-4772-9216-631c7bf5595d" name="Default Changelist" comment="" />
-      <created>1570594666919</created>
+      <changelist id="c189ea0c-2a00-49f7-8e88-389010661096" name="Default Changelist" comment="" />
+      <created>1578146543338</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570594666919</updated>
+      <updated>1578146543338</updated>
     </task>
     <servers />
   </component>
@@ -120,10 +252,4 @@
       </map>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-=======
->>>>>>> master
 </project>
